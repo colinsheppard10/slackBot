@@ -1,0 +1,27 @@
+{
+  "name": "slackbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "slackbot": "run.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colinsheppard10/slackBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colinsheppard10/slackBot/issues"
+  },
+  "homepage": "https://github.com/colinsheppard10/slackBot#readme",
+  "dependencies": {
+    "@slack/client": "^3.10.0",
+    "express": "^4.15.3",
+    "superagent": "^3.5.2"
+  }
+}
